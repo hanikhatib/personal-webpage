@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Hani Khatib's Personal Webpage">
+    <title>Hani Khatib's Personal Webpage</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="container">
+                <a href="#" class="nav-logo">HK</a>
+                <div class="nav-links">
+                    <a href="#ai-security" class="nav-link">Security</a>
+                    <a href="#applied-ai" class="nav-link">Applied AI</a>
+                    <a href="#research" class="nav-link">Research Projects</a>
+                </div>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Hero Section with Particles -->
+        <div class="hero" id="hero">
+            <div id="particles-js"></div>
+            <div class="container hero-content">
+                <div class="hero-image-container">
+                    <img src="assets/headshot.jpg" alt="Hani Khatib" class="hero-image">
+                </div>
+                <div class="hero-text">
+                    <h1 class="hero-title">Hani Khatib</h1>
+                    <p class="hero-subtitle">Cybersecurity Consultant | AI & Data Professional</p>
+                    <div class="hero-description">
+                        <p style="text-align:justify"> Welcome! I'm Hani Khatib, a Cybersecurity consultant and applied AI engineer working at the intersection of Machine Learning Operations (MLOps) and security architecture. I specialize in bringing data to life through secure-by-design and interactive experiences that push technological boundaries.
+                            <br>
+                            <br>
+                            This site showcases my portfolio across applied AI, enterprise-level security solutions, and immersive photogrammetry projects. Explore to see how I blend technical skills with creative vision. </p>
+                    </div>
+                    <div class="hero-cta">
+                        <a href="#ai-security" class="btn btn-primary">Explore Projects</a>
+                        <div class="social-links">
+                            <a href="https://github.com/hanikhatib" target="_blank" class="social-link"><i class="fab fa-github"></i></a>
+                            <a href="https://www.linkedin.com/in/hani-khatib" target="_blank" class="social-link"><i class="fab fa-linkedin"></i></a>
+                            <a href="mailto:18hk3@queensu.ca" class="social-link"><i class="far fa-envelope"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="scroll-indicator">
+                <!-- <div class="mouse"></div> -->
+                <p>Scroll to explore</p>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- AI Security Solutions Section (Combined Cybersecurity and some AI) -->
+        <section id="ai-security" class="section">
+            <div class="section-header">
+                <h2 class="section-title"><span class="accent">AI Security</span> & Adversarial Testing</h2>
+                <p class="section-subtitle">Safeguarding LLMs and CI/CD pipelines against adversarial threats</p>
+            </div>
+
+            <div class="container">
+                <div class="security-projects">
+                    <!-- Anthropic Project -->
+                    <div class="security-card">
+                        <div class="card-header">
+                            <div class="icon-container">
+                                <img src="assets/anthropic-logo.jpg" alt="Anthropic" class="anthropic-logo" onerror="this.src='https://www.anthropic.com/images/favicon.ico'">
+                            </div>
+                            <h3>Anthropic Bug Bounty Program</h3>
+                        </div>
+                        <div class="card-body">
+                            <p>One of 183 active participants in Anthropic's Model Safety Bug Bounty Program, contributing to AI safety by reporting on model vulnerabilities through HackerOne.</p>
+                            <div class="card-tags">
+                                <span>AI Safety</span>
+                                <span>LLM Security</span>
+                                <span>Vulnerability Research</span>
+                                <span>Ethical Hacking</span>
+                            </div>
+                            <a href="https://www.anthropic.com/research/constitutional-classifiers" target="_blank" class="btn btn-sm">Learn More</a>
+                        </div>
+                    </div>
+
+                    <!-- GenAI Security Solutions -->
+                    <div class="security-card">
+                        <div class="card-header">
+                            <div class="icon-container">
+                                <i class="fas fa-brain"></i>
+                            </div>
+                            <h3>GenAI Security Research</h3>
+                        </div>
+                        <div class="card-body">
+                            <p>Developed a LLM-powered web application that demonstrates OWASP Top 10 LLM vulnerabilities (e.g., Prompt Injection & Data Poisoning) in a simulated, yet realistic fraud detection exercise.</p>
+                            <div class="card-tags">
+                                <span>GenAI Security</span>
+                                <span>OWASP Top 10 LLM</span>
+                                <span>Prompt Injection</span>
+                                <span>Defense Strategies</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- LLM-Orchestrated Data Preprocessing -->
+                    <div class="security-card">
+                        <div class="card-header">
+                            <div class="icon-container">
+                                <i class="fas fa-microchip"></i>
+                            </div>
+                            <h3>LLM-Orchestrated Security Automation</h3>
+                        </div>
+                        <div class="card-body">
+                            <p>Built an LLM agent PoC for automated scripting and deployment of Azure security policies, reducing the lead time and cost to security orchestration.</p>
+                            <div class="card-tags">
+                                <span>LLMs</span>
+                                <span>Azure Policy</span>
+                                <span>CI/CD</span>
+                                <span>GitHub Actions</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Applied AI Section -->
+        <section id="applied-ai" class="section">
+            <div class="section-header">
+                <h2 class="section-title"><span class="accent">Applied AI</span> & ETL</h2>
+                <p class="section-subtitle">Architecting end-to-end data pipelines and deploying production-ready AI solutions</p>
+            </div>
+
+            <div class="container">
+                <div class="data-flow">
+                    <div class="flow-step">
+                        <div class="flow-icon">
+                            <i class="fas fa-database"></i>
+                        </div>
+                        <span>Raw Data</span>
+                    </div>
+                    <div class="flow-arrow">
+                        <i class="fas fa-arrow-right"></i>
+                    </div>
+                    <div class="flow-step">
+                        <div class="flow-icon">
+                            <i class="fas fa-cogs"></i>
+                        </div>
+                        <span>ETL Process</span>
+                    </div>
+                    <div class="flow-arrow">
+                        <i class="fas fa-arrow-right"></i>
+                    </div>
+                    <div class="flow-step">
+                        <div class="flow-icon">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                        <span>Analytics</span>
+                    </div>
+                    <div class="flow-arrow">
+                        <i class="fas fa-arrow-right"></i>
+                    </div>
+                    <div class="flow-step">
+                        <div class="flow-icon">
+                            <i class="fas fa-lightbulb"></i>
+                        </div>
+                        <span>Insights</span>
+                    </div>
+                </div>
+
+                <div class="data-projects">
+                    <!-- Custom Analytics Dashboards -->
+                    <div class="data-card">
+                        <div class="card-side">
+                            <div class="card-icon">
+                                <i class="fas fa-tachometer-alt"></i>
+                            </div>
+                        </div>
+                        <div class="card-main">
+                            <h3>Custom Analytics Dashboards</h3>
+                            <p>Led the implementation of several enterprise security analytics dashboards that provide real-time risk analysis for key decision-makers.</p>
+                            <div class="card-tags">
+                                <span>Data Visualization</span>
+                                <span>Tableau</span>
+                                <span>Python</span>
+                                <span>Security Metrics</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- E-Commerce Product Classification -->
+                    <div class="data-card">
+                        <div class="card-side">
+                            <div class="card-icon">
+                                <i class="fas fa-shopping-cart"></i>
+                            </div>
+                        </div>
+                        <div class="card-main">
+                            <h3>E-Commerce Product Classification</h3>
+                            <p>Developed a multi-modal deep learning solution for Loblaw Digital, leveraging NLP and CNNs to optimize SEO by classifying +160k products with +92% accuracy.</p>
+                            <div class="card-tags">
+                                <span>Computer Vision</span>
+                                <span>NLP</span>
+                                <span>Classification</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Cloud Security Policies -->
+                    <div class="data-card">
+                        <div class="card-side">
+                            <div class="card-icon">
+                                <i class="fas fa-cloud"></i>
+                            </div>
+                        </div>
+                        <div class="card-main">
+                            <h3>Cloud Security Infrastructure</h3>
+                            <p>Scripted and deployed over 30 cloud security policies in TFE Sentinel, AWS Config, and Azure to safeguard CI/CD pipeline.</p>
+                            <div class="cloud-icons">
+                                <div class="cloud-icon">
+                                    <img src="https://img.icons8.com/color/48/000000/amazon-web-services.png" alt="AWS">
+                                    <span>AWS Config</span>
+                                </div>
+                                <div class="cloud-icon">
+                                    <img src="https://img.icons8.com/color/48/000000/azure-1.png" alt="Azure">
+                                    <span>Azure Policy</span>
+                                </div>
+                                <div class="cloud-icon">
+                                    <img src="https://img.icons8.com/color/48/000000/terraform.png" alt="Terraform">
+                                    <span>TFE Sentinel</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Research Projects Section (Combines Featured and NeRF) -->
+        <section id="research" class="section">
+            <div class="section-header">
+                <h2 class="section-title"><span class="accent">Research</span> Projects</h2>
+            </div>
+
+            <div class="container">                    
+                <!-- geneDRAGNN -->
+                <div class="project-showcase">
+                    <div class="project-content">
+                        <h3>geneDRAGNN: Gene Disease Prioritization using Graph Neural Networks</h3>
+                        <p>As part of a student research team, I contributed to the development of geneDRAGNN, a methodology using graph neural networks to predict gene-disease associations.
+                            <br><br>
+                            An earlier version of the paper was a winner of UofT AI's 2021 Project X undergraduate machine-learning competition.
+                            Some revisions later, we submitted the paper to the 2022 IEEE Conference on Computational Intelligence in Bioinformatics and Computational Biology (CIBCB).</p>
+
+                        <div class="project-stats">
+                            <div class="stat-item">
+                                <span class="stat-value">$25,000</span>
+                                <span class="stat-label">Prize Winners at Project X Competition</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-value">Published</span>
+                                <span class="stat-label">at 2022 IEEE CIBCB</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-value">#1</span>
+                                <span class="stat-label">Student Paper Award at IEEE CIBCB proceedings</span>
+                            </div>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/geneDRAGNN/geneDRAGNN" target="_blank" class="btn btn-outline">
+                                <i class="fab fa-github"></i> View Code
+                            </a>
+                            <a href="https://ieeexplore.ieee.org/document/9863043" target="_blank" class="btn btn-outline">
+                                <i class="fas fa-file-alt"></i> Read Paper
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-visualization">
+                        <!-- Replace with your GIF -->
+                        <img src="assets/genedragnn.gif" alt="geneDRAGNN GIF" class="project-gif">
+                    </div>
+                </div>
+
+                <!-- Neural Radiance Fields Subsection -->
+                <div class="subsection">
+                    <h3 class="subsection-title"><span class="accent">Bringing Photos to Life</span> with Neural Radiance Fields (NeRF)</h3>
+                    <p>
+                        Neural Radiance Fields (NeRFs) transform 2D images into interactive 3D worlds. <br> <br> Using NVIDIA's Instant NeRF software developer kit (SDK) and a custom GCP virtual machine setup, I created photorealistic 3D reconstructions of vibrant scenes with out out-of-distribution perspectives. Each scene rendered in hours (a task which previously would have taken days or weeks) using less than 200 images. <br> <br>
+                    </p>
+
+                    <div class="project-cards">
+                        <!-- Lake NeRF -->
+                        <div class="project-card">
+                            <div class="card-inner">
+                                <div class="card-front">
+                                    <div class="card-image">
+                                        <img src="assets/lake.jpg" alt="Lake NeRF">
+                                    </div>
+                                    <div class="card-content">
+                                        <h4>Lake NeRF</h4>
+                                        <p>3D scene rendering of Canadian pond from 180 drone images</p>
+                                        <a href="https://x.com/hani_khatib_/status/1542843324859564034" target="_blank" class="btn btn-sm">View Demo</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- RC Truck NeRF -->
+                        <div class="project-card">
+                            <div class="card-inner">
+                                <div class="card-front">
+                                    <div class="card-image">
+                                        <img src="assets/truck.jpg" alt="RC Truck NeRF">
+                                    </div>
+                                    <div class="card-content">
+                                        <h4>RC Truck NeRF</h4>
+                                        <p>Object-level NeRF reconstruction from 150 images</p>
+                                        <a href="https://x.com/hani_khatib_/status/1541132363572338689" target="_blank" class="btn btn-sm">View Demo</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Mustang NeRF -->
+                        <div class="project-card">
+                            <div class="card-inner">
+                                <div class="card-front">
+                                    <div class="card-image">
+                                        <img src="assets/mustang.jpg" alt="Mustang NeRF">
+                                    </div>
+                                    <div class="card-content">
+                                        <h4>Mustang GT NeRF</h4>
+                                        <p>Rendering of reflective surfaces with windy conditions</p>
+                                        <a href="https://x.com/hani_khatib_/status/1551331458110857217" target="_blank" class="btn btn-sm">View Demo</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Graffiti Alley NeRF -->
+                        <div class="project-card">
+                            <div class="card-inner">
+                                <div class="card-front">
+                                    <div class="card-image">
+                                        <img src="assets/graffiti.jpg" alt="Graffiti Alley NeRF">
+                                    </div>
+                                    <div class="card-content">
+                                        <h4>Graffiti Alley NeRF</h4>
+                                        <p>Testing out NeRFs for the first time!</p>
+                                        <a href="https://x.com/hani_khatib_/status/1540924718030770188" target="_blank" class="btn btn-sm">View Demo</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-info">
+                    <div class="footer-logo">HK</div>
+                    <p>Project built with vanilla HTML, CSS, and JavaScript for performance and simplicity.</p>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-section">
+                        <h4>Explore</h4>
+                        <a href="#ai-security">Security</a>
+                        <a href="#applied-ai">Applied AI</a>
+                        <a href="#research">Research Projects</a>
+                    </div>
+                    <div class="footer-section">
+                        <h4>Connect</h4>
+                        <a href="https://github.com/hanikhatib" target="_blank">GitHub</a>
+                        <a href="https://www.linkedin.com/in/hani-khatib" target="_blank">LinkedIn</a>
+                        <a href="mailto:18hk3@queensu.ca">Email</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2025 Hani Khatib. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.min.js"></script>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
